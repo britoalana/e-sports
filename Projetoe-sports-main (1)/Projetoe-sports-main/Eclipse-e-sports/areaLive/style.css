@@ -1,0 +1,146 @@
+
+@media only screen and (max-width:2560px) {
+    main{
+        width: 100%;
+        height: 63vh;
+    }
+    .participante{
+        width: 120px;
+        height: 120px;
+        padding-top: 8px;
+     padding-left: 30px;
+    }
+    .descricao{
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        width: 109px;
+        height: 366px;
+        margin-left: 17px;
+        background-color: #6c428d;
+    }
+    .live1{
+        margin-top: 20px;
+        margin-left: 150px;
+        width: 90vh;
+        height: 50vh;
+    }
+    .comentarios{
+
+        display: inline-flex;
+        flex-direction: column;
+        top: 50px;
+        left: 110vh;
+        align-items: end;
+        justify-content: end;
+        position: absolute;
+    }
+    .comentario1{
+        /* margin-right: 57px; */
+           width: 598px;
+           height: 55px;
+           background-color: #7B4D9F;
+           border-radius: 20px;
+       
+       }
+       .comentario2{
+       
+           width: 658px;
+           height: 55px;
+           margin-top: 8px;
+           background-color: #7B4D9F;
+           border-radius: 20px;
+       
+       }
+       .comentario3{
+           /* margin-right: 357px; */
+        
+           margin-top: 8px;
+           width: 288px;
+           height: 55px;
+           background-color: #7B4D9F;
+           border-radius: 20px;
+       
+       }
+       .comentario4{
+        
+           margin-top: 8px;
+           width: 448px;
+           height: 55px;
+           background-color: #7B4D9F;
+           border-radius: 20px;
+       
+       }
+       .comentario5{
+        
+           margin-top: 8px;
+           width: 298px;
+           height: 55px;
+           background-color: #7B4D9F;
+           border-radius: 20px;
+       
+       }
+       .comente{
+        display: inline-flex;
+           margin-left: 120vh;
+           height: 55px;
+           width: 550px;
+           background-color: #8450AC;
+           border: none;
+           border-radius: 20px;
+         margin-bottom: 10px;
+           color: aliceblue;
+           text-align: center;
+       }
+       .emoji{
+        width: 50px;
+        height: 50px;
+       top:490px;
+           display: inline-flex;
+           position: absolute;
+           margin-left: 113vh;
+         margin-bottom: 10px;
+       
+       }
+       .maisLives{
+        padding: 50px;
+       }
+       .maisLives iframe{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vh;
+        height: 50vh;
+       }
+
+       .video1,.video2{
+        margin-top: 13px;
+        display: flex;
+        width: 50%;
+        height: 395px;
+        margin: 10px;
+    
+    }
+    .video2{
+    right: 89px;
+    margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    nav{
+        width: 100%;
+    }
+    main{
+        position: relative;
+      
+    }
+  ul{
+    display: flex;
+    justify-content: start;
+    margin: 0 15px;
+position: absolute;
+margin:0;
+  }
+
+}

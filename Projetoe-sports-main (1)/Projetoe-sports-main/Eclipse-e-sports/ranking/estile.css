@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #AE87D6;
+}
+body{
+    background-color: #AE87D6;
+}
+nav{
+    background: #9b6cca;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: .1rem;
+
+    flex-direction:row-reverse;
+}
+li a:hover{
+    border-radius: 10px;
+    background-color:rgba(183, 166, 247, 0.692) ;
+ }
+ li a{
+
+     color: #9998ffc5;
+     text-decoration: none;
+     padding: 1.5rem;
+     display: inline-block;
+     display: flex;
+     align-items: center;
+     gap: .6rem;
+
+     
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+ }
+.nav-img{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 5px;
+    padding-right: 17px;
+}
+.ranking{
+    padding-right: 9px;
+}
+.nav-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    padding-right: 17px;
+    background: #9b6cca;
+}
+.list{
+    padding-right: 9px;
+    background: #9b6cca;
+}
+.ranking{
+    background: #9b6cca;
+}
+.profile{
+    justify-content: space-between;
+    background: #9b6cca;
+}
+main h2{
+ text-align: center;
+}
+.profile3{
+
+    width: 120px;
+    height: 120px;
+ 
+}
+.user-img{
+    display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.caixa2 h5{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    background: #9b6cca;
+    font-size: 40px;
+    margin: .5rem;
+    height: 500px;
+}
+
+.jogos{
+    background: #AE87D6;
+}
+.capa1{
+    width: 140px;
+    height: 140px;
+    border-radius: 25%;
+    
+}
+.capa2{
+    width: 140px;
+    height: 140px;
+    border-radius: 25%;
+}
+.capa3{
+    width: 140px;
+    height: 140px;
+    border-radius: 25%;
+}
+#users{
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row;
+}
+.user1{
+    font-size: 25px;
+}
+.caixa3{
+    height: 150px;
+    background: #9b6cca;
+}
+.jogos{
+    margin: 0 10px;
+    border-radius: 25%;
+    display: inline;
+    height: 150px;
+    width: 150px;
+}
